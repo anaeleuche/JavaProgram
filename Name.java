@@ -37,7 +37,7 @@ public class Name {
 
     @Override
     public String toString() {
-        return firstname + "  " + middle  + "  " + surname ;
+        return firstname + " " + middle  + " " + surname ;
     }
     
     
