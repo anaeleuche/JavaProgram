@@ -115,7 +115,7 @@ public class CompetitorList {
         return highestScorer;
     }
 
-    // Helper method to get the frequency of a specific score
+    // Helper method to get the frequency of a specific competitor score
     private int getFrequencyForScore(int score) {
         int frequency = 0;
         for (Competitor competitor : competitors) {
