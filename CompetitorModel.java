@@ -69,7 +69,7 @@ public class CompetitorModel {
      * number.
      *
      * @param cmpNo The unique identifier for the competitor.
-     * @return int[] representing the scores of the specified competitor.
+     * @return int[] representing the score of the specified competitor.
      */
     public int[] getCompetitorScores(int cmpNo) {
         return competitorList.getCompetitorScores(cmpNo);
