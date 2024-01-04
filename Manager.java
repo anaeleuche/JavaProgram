@@ -14,7 +14,7 @@ public class Manager {
 
         CompetitorController controller = new CompetitorController(model, view);
 
-        // Display the GUI
+        // Display program  GUI
         SwingUtilities.invokeLater(() -> {
             view.setExtendedState(JFrame.MAXIMIZED_BOTH);
             view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
